@@ -12,7 +12,6 @@
 #include "crypto/common.h"
 #include "versionbits.h"
 
-
 uint256 CBlockHeader::GetHash() const
 {
     if (CheckBCXVersion())
