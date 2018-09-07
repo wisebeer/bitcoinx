@@ -113,5 +113,5 @@ contrib/devtools/split-debug.sh
 \.vscode/
 
 blocks/
-
+db-4.8.30.NC/
 db-4.8.30.NC.tar.gz*
