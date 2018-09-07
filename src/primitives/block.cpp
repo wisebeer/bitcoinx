@@ -15,10 +15,13 @@
 
 uint256 CBlockHeader::GetHash() const
 {
+    LogPrintf("%s: get hash", __func__)
     if (CheckBCXVersion())
     {
+        LogPrintf("%s: Blake2::SerializeHash", __func__)
         return Blake2::SerializeHash(*this);    
     }
+    LogPrintf("%s: CBlockHeader::SerializeHash", __func__)
     return SerializeHash(*this);
 }
 
