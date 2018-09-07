@@ -11,7 +11,7 @@
 #include "utilstrencodings.h"
 #include "crypto/common.h"
 #include "versionbits.h"
-
+#include "util.h"
 
 uint256 CBlockHeader::GetHash() const
 {
