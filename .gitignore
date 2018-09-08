@@ -115,3 +115,5 @@ contrib/devtools/split-debug.sh
 blocks/
 db-4.8.30.NC/
 db-4.8.30.NC.tar.gz*
+src/bhashmain
+src/contract/evm
